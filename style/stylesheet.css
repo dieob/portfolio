@@ -253,16 +253,3 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 body { font-family: Consolas, monospace; }
-
-h1 { 
-    font-size:150%;
-    width:16.3em;
-    white-space:nowrap;
-    overflow:hidden;
-    border-right: .1em solid black;
-    
-    -webkit-animation: typing 5s steps(15, end), /* # of steps = # of characters */
-                        blink-caret 1s step-end infinite;
-    -moz-animation: typing 5s steps(15, end), /* # of steps = # of characters */
-                        blink-caret 1s step-end infinite;
-}
